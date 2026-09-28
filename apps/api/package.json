@@ -1,0 +1,16 @@
+{
+  "name": "@webgenerator/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@webgenerator/business-model": "file:../../packages/business-model",
+    "@webgenerator/shared": "file:../../packages/shared"
+  }
+}

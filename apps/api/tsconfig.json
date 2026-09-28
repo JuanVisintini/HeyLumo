@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "composite": true
+  },
+  "references": [
+    { "path": "../../packages/business-model" },
+    { "path": "../../packages/shared" },
+    { "path": "../../packages/capabilities/business-import" },
+    { "path": "../../packages/capabilities/business-normalization" },
+    { "path": "../../packages/capabilities/business-analysis" }
+  ],
+  "include": ["src"]
+}

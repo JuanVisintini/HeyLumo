@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+.DS_Store
+.env
+*.log
+temp-config.json
+trace.txt
+apps/*/output/
+*.tsbuildinfo

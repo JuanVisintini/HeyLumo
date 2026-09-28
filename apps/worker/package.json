@@ -1,0 +1,19 @@
+{
+  "name": "@webgenerator/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/src/index.js"
+  },
+  "dependencies": {
+    "@webgenerator/business-model": "file:../../packages/business-model",
+    "@webgenerator/shared": "file:../../packages/shared",
+    "@webgenerator/capability-business-import": "file:../../packages/capabilities/business-import",
+    "@webgenerator/capability-business-normalization": "file:../../packages/capabilities/business-normalization",
+    "@webgenerator/capability-business-analysis": "file:../../packages/capabilities/business-analysis"
+  }
+}

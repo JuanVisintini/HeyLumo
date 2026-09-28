@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "lib": ["ES2020", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@webgenerator/business-model": ["packages/business-model/src/index.ts"],
+      "@webgenerator/shared": ["packages/shared/src/index.ts"],
+      "@webgenerator/shared/*": ["packages/shared/src/*"],
+      "@webgenerator/capability-business-import": ["packages/capabilities/business-import/src/index.ts"],
+      "@webgenerator/capability-business-normalization": ["packages/capabilities/business-normalization/src/index.ts"],
+      "@webgenerator/capability-business-analysis": ["packages/capabilities/business-analysis/src/index.ts"],
+      "@webgenerator/capabilities/*": ["packages/capabilities/*/src/index.ts"]
+    }
+  }
+}
